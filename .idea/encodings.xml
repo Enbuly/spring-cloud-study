@@ -4,8 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
   </component>
 </project>
