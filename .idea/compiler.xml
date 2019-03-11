@@ -14,7 +14,7 @@
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
         <module name="Eureka-Server" />
-        <module name="rabbit-mq" />
+        <module name="rabbit-mq1" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
@@ -28,6 +28,9 @@
       <module name="Eureka-Server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="rabbit-mq" target="1.8" />
+      <module name="rabbit-mq1" target="1.8" />
+      <module name="rabbitMQ-Recieve" target="1.8" />
+      <module name="rabbitMQ-Sender" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
