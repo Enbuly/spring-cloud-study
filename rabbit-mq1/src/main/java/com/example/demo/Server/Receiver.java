@@ -15,7 +15,7 @@ public class Receiver {
 
     @RabbitHandler
     public void process(String msg) {
-        restTemplate.getForObject("http://SERVICE-HI/hi?name=" + msg, String.class);
-        System.out.println("Receiver:" + msg);
+        String result = restTemplate.getForObject("http://SERVICE-HI/hi?name=" + msg, String.class);
+        System.out.println("Receiver:" + result);
     }
 }

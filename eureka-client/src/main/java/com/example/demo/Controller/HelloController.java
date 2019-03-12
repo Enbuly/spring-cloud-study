@@ -13,7 +13,7 @@ public class HelloController {
 
     @GetMapping("/hi")
     public String home(@RequestParam String name) {
-        System.out.println("come eureka client");
+        //System.out.println("come eureka client");
         return "hi " + name + " ,i am from port:" + port;
     }
 }
