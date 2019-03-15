@@ -30,6 +30,7 @@
       <module name="rabbit-mq1" target="1.8" />
       <module name="rabbitMQ-Recieve" target="1.8" />
       <module name="rabbitMQ-Sender" target="1.8" />
+      <module name="spring-cloud-study" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
