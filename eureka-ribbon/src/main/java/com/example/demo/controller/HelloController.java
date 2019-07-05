@@ -1,15 +1,16 @@
 package com.example.demo.controller;
 
 import com.example.demo.server.HelloServer;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-public class HelloControler {
+import javax.annotation.Resource;
 
-    @Autowired
+@RestController
+public class HelloController {
+
+    @Resource
     HelloServer helloServer;
 
     @GetMapping(value = "/hi")
