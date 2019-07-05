@@ -6,9 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-feign/eureka-feign.iml" filepath="$PROJECT_DIR$/eureka-feign/eureka-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" filepath="$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbit-mq1/rabbit-mq1.iml" filepath="$PROJECT_DIR$/rabbit-mq1/rabbit-mq1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-study.iml" filepath="$PROJECT_DIR$/spring-cloud-study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>
