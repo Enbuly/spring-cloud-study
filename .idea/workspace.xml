@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd8c9424-7164-481b-bd67-99c424f7d18d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="fd8c9424-7164-481b-bd67-99c424f7d18d" name="Default" comment="更新代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer2.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/src/main/java/com/example/demo/RabbitMqApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/src/main/java/com/example/demo/Server/RabbitConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/src/main/java/com/example/demo/Server/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/src/main/java/com/example/demo/Server/Sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/src/main/java/com/example/demo/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq1/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/example/demo/ZuulApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/example/demo/server/MyFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-feign/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ribbon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +38,21 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/ServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Eureka-Client/src/main/java/com/example/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/Eureka-Client/src/main/java/com/example/demo/ClientApplication.java" />
         <option value="$PROJECT_DIR$/Eureka-Client/src/main/java/com/example/demo/Controller/HelloController.java" />
         <option value="$PROJECT_DIR$/Eureka-Server/pom.xml" />
@@ -83,7 +74,6 @@
         <option value="$PROJECT_DIR$/Eureka-Client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-ribbon/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/EurekaFeignApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-feign/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-ribbon/src/main/java/com/example/demo/RibbonApplication.java" />
         <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/api/SchedualServiceHi.java" />
         <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/web/HiController.java" />
@@ -98,7 +88,6 @@
         <option value="$PROJECT_DIR$/rabbit-mq/src/main/java/com/example/demo/Server/RabbitConfig.java" />
         <option value="$PROJECT_DIR$/rabbit-mq/src/main/java/com/example/demo/Server/Sender.java" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/example/demo/Controller/Sender.java" />
-        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitMQ-Sender/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitMQ-Recieve/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitMQ-Recieve/src/main/resources/application.properties" />
@@ -106,7 +95,6 @@
         <option value="$PROJECT_DIR$/rabbitMQ-Sender/src/test/java/com/example/demo/DemoApplicationTests.java" />
         <option value="$PROJECT_DIR$/rabbit-mq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbit-mq/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-mq/src/main/java/com/example/demo/Server/Receiver.java" />
         <option value="$PROJECT_DIR$/rabbit-mq/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-mq/src/main/java/com/example/demo/DemoApplication.java" />
@@ -117,15 +105,19 @@
         <option value="$PROJECT_DIR$/eureka-ribbon/src/main/java/com/example/demo/server/HelloServer.java" />
         <option value="$PROJECT_DIR$/rabbit-mq1/src/main/java/com/example/demo/Server/Receiver.java" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/example/demo/Controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.yml" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer2.yml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/doc/sqlnote.txt" />
         <option value="$PROJECT_DIR$/doc/note.txt" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/example/demo/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-feign/pom.xml" />
       </list>
     </option>
   </component>
@@ -172,6 +164,36 @@
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -188,7 +210,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562311461662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562312379060" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -429,7 +451,7 @@
       <workItem from="1561532922706" duration="1001000" />
       <workItem from="1561942749806" duration="658000" />
       <workItem from="1561943723624" duration="2757000" />
-      <workItem from="1562310720526" duration="487000" />
+      <workItem from="1562310720526" duration="1523000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1551850605299</created>
@@ -550,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561945627484</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="更新代码">
+      <created>1562311518644</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562311518645</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -583,10 +612,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65604000" />
+    <option name="totallyTimeSpent" value="66640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32761088" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -657,7 +687,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rabbitMQ-Sender/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/rabbitMQ-Sender/src/main/java/com/example/demo/DemoApplication.java" />
     <entry file="file://$PROJECT_DIR$/rabbitMQ-Sender/src/main/java/com/example/demo/Server/Receiver.java" />
     <entry file="file://$PROJECT_DIR$/rabbit-mq/src/main/java/com/example/demo/Server/RabbitConfig.java" />
@@ -669,13 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -713,40 +735,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/EurekaFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -810,13 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -890,20 +871,6 @@
     <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/example/demo/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="49" lean-forward="true" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/sqlnote.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -918,6 +885,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/eureka-server.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -925,21 +900,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/ServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/example/demo/ClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="190">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#336#337#0" expanded="true" />
             <element signature="e#404#405#0" expanded="true" />
@@ -949,17 +920,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/example/demo/Controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="57">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/eureka-server.iml">
+    <entry file="file://$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/EurekaFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
+        <state relative-caret-position="190">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="49" lean-forward="true" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sqlnote.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
