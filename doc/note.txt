@@ -1,2 +1,0 @@
-使用Spring Cloud搭建高可用服务注册中心
-https://mp.weixin.qq.com/s/ie042Q_h8ppsroEjQ0bdgg
