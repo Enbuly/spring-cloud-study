@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8c9424-7164-481b-bd67-99c424f7d18d" name="Default" comment="更新代码">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/EurekaZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/conmons/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,7 +31,26 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/conmons/AuthFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/EurekaFeignApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-ribbon/src/main/java/com/example/demo/RibbonApplication.java" />
         <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/api/SchedualServiceHi.java" />
         <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/eurekafeign/web/SchedualServiceHiHystric.java" />
         <option value="$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml" />
@@ -108,6 +114,8 @@
         <option value="$PROJECT_DIR$/eureka-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/EurekaZuulApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/conmons/MyFilter.java" />
+        <option value="$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/conmons/AuthFilter.java" />
       </list>
     </option>
   </component>
@@ -142,73 +150,6 @@
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekazuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekazuul" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +166,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579056105196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579059027422" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -260,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaZuulApplication">
+  <component name="RunManager" selected="Spring Boot.RibbonApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -480,7 +421,7 @@
       <workItem from="1567831562706" duration="684000" />
       <workItem from="1577894099750" duration="425000" />
       <workItem from="1578233625685" duration="2668000" />
-      <workItem from="1579050152391" duration="3666000" />
+      <workItem from="1579050152391" duration="5257000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1551850605299</created>
@@ -636,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578234484407</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="更新代码">
+      <created>1579056223409</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579056223409</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -669,12 +617,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75993000" />
+    <option name="totallyTimeSpent" value="77584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35121602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35121602" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -687,7 +636,7 @@
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.32921174" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49928468" visible="true" weight="0.37349397" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" sideWeight="0.49928468" visible="true" weight="0.37349397" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -744,7 +693,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rabbit-mq/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/rabbit-mq1/src/test/java/com/example/demo/DemoApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/rabbit-mq1/src/main/java/com/example/demo/RabbitMqApplication.java" />
     <entry file="file://$PROJECT_DIR$/eureka-client/.gitignore" />
@@ -1002,10 +950,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/EurekaZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="414">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#635#636#0" expanded="true" />
@@ -1014,17 +976,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-zuul/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eureka-zuul/src/main/java/com/example/eurekazuul/conmons/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="376">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
