@@ -13,8 +13,8 @@
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
         <module name="Eureka-Server" />
+        <module name="eureka-zuul" />
         <module name="rabbit-mq1" />
-        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +26,7 @@
       <module name="Eureka-ribbon" target="1.8" />
       <module name="Eureka-Server" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-zuul" target="1.8" />
       <module name="rabbit-mq" target="1.8" />
       <module name="rabbit-mq1" target="1.8" />
       <module name="rabbitMQ-Recieve" target="1.8" />
@@ -40,6 +41,7 @@
       <module name="eureka-feign" options="-parameters" />
       <module name="eureka-ribbon" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="eureka-zuul" options="-parameters" />
     </option>
   </component>
 </project>
