@@ -6,6 +6,12 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
+/**
+ * 服务service
+ *
+ * @author lazy cat
+ * @since 2020-01-16
+ **/
 @Service
 public class HelloServer {
 
