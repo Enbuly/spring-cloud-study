@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
+/**
+ * 服务controller
+ *
+ * @author lazy cat
+ * @since 2020-01-16
+ **/
 @RestController
 public class HiController {
 

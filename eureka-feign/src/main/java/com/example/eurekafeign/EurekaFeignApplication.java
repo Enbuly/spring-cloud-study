@@ -6,6 +6,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+/**
+ * feign启动器
+ *
+ * @author lazy cat
+ * @since 2020-02-16
+ **/
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
